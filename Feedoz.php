@@ -15,7 +15,7 @@ use Zend\Feed\Reader\Reader;
  * The main class to wrap Zend Feed Extension
  * @package yii\feed
  */
-class Feed extends Component
+class Feedoz extends Component
 {
         /**
          * Loads read Zend-feed component
