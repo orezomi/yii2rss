@@ -1,0 +1,21 @@
+{
+    "name": "orezomi/yii2rss",
+    "description": "Yii2 RSS Feeder and Reader",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Harismo Aji",
+            "email": "harismoaji@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "orezomi\\yii2rss\\": ""
+        }
+    }
+}
