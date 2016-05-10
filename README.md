@@ -1,2 +1,2 @@
 # yii2rss
-rss reader for yii2 framework
+rss feeder and reader for yii2 framework
