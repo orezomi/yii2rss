@@ -11,7 +11,10 @@
         }
     ],
     "require": {
-        "yiisoft/yii2": "*"
+        "yiisoft/yii2": "*",
+        "zendframework/zend-feed": "*",
+	    "zendframework/zend-servicemanager": "*",
+	    "zendframework/zend-http": "*"
     },
     "autoload": {
         "psr-4": {
