@@ -20,3 +20,20 @@ or add
 ```
 
 to the require section of your `composer.json` file.
+
+Usage
+-----
+Configuration web.php
+```
+'components' => [
+       ...
+    	'feed'=>[
+    		'class'=>'orezomi\yii2rss\Feedoz',
+    	],
+    	...
+    	]
+```
+and in controller or view use this to get feed:
+```
+$feed=Yii::$app->feed->reader()->import('http://example.com/rss');
+```
